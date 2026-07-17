@@ -135,6 +135,10 @@ src/
 - Stamp QR tokens expire after a short window and are validated server-side
 - Runs as a non-root user inside the Docker image
 
+## Development Process
+
+This project was built with an AI-assisted workflow: [Claude Code](https://claude.com/claude-code), Anthropic's agentic CLI, running on the DeepSeek v4 Pro model — a deliberate choice driven by cost efficiency for a self-funded project, trading some raw capability for a dramatically lower iteration cost. I directed the process end to end: defining the product requirements, the multi-tenant data model, and the QR-based stamp/redemption flows; reviewing generated code; and testing each feature against a real PostgreSQL instance before it landed. The workflow's guardrails are visible in the repo itself — a reproducible Docker Compose environment, a seeded schema for instant verification, and CI that builds every push from a clean checkout. Working this way taught me as much about specifying and reviewing software rigorously as about writing it, and I consider fluency with AI development tools — including knowing when not to trust their output — a core part of my engineering practice.
+
 ## License
 
 [MIT](LICENSE)
