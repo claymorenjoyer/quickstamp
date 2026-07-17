@@ -33,6 +33,25 @@ Staff generate short-lived QR codes at the counter; customers scan them to colle
 - 📊 **Staff analytics** — stamp and redemption history per shop
 - 🐳 **One-command deploy** — Docker Compose with PostgreSQL, health-checked startup, standalone Next.js output
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="docs/screenshots/01.jpg" alt="Screenshot 1" width="160"></td>
+    <td><img src="docs/screenshots/02.jpg" alt="Screenshot 2" width="160"></td>
+    <td><img src="docs/screenshots/03.jpg" alt="Screenshot 3" width="160"></td>
+    <td><img src="docs/screenshots/04.jpg" alt="Screenshot 4" width="160"></td>
+    <td><img src="docs/screenshots/05.jpg" alt="Screenshot 5" width="160"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/06.jpg" alt="Screenshot 6" width="160"></td>
+    <td><img src="docs/screenshots/07.jpg" alt="Screenshot 7" width="160"></td>
+    <td><img src="docs/screenshots/08.jpg" alt="Screenshot 8" width="160"></td>
+    <td><img src="docs/screenshots/09.jpg" alt="Screenshot 9" width="160"></td>
+    <td><img src="docs/screenshots/10.jpg" alt="Screenshot 10" width="160"></td>
+  </tr>
+</table>
+
 ## Tech Stack
 
 | Layer     | Technology                                        |
