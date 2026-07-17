@@ -10,9 +10,16 @@ Staff generate short-lived QR codes at the counter; customers scan them to colle
 
 🌐 **Live demo:** [quickstamp.com.tr](https://quickstamp.com.tr)
 
+[![CI](https://github.com/claymorenjoyer/quickstamp/actions/workflows/ci.yml/badge.svg)](https://github.com/claymorenjoyer/quickstamp/actions/workflows/ci.yml)
+
 </div>
 
 ---
+
+## Requirements
+
+- [Docker](https://docs.docker.com/get-docker/) with Compose — that's all for running the app
+- [Node.js](https://nodejs.org) ≥ 20.9 — only for local development
 
 ## Features
 
