@@ -54,10 +54,14 @@ docker compose --profile tools up -d   # pgAdmin on :5050
 ## Development
 
 ```bash
+cp .env.sample .env      # if you haven't already
 docker compose up -d db  # start PostgreSQL only
 npm install
 npm run dev              # dev server on http://localhost:3000
 ```
+
+The dev server connects to the database via `DATABASE_URL` in `.env` — if you
+change any `DB_*` value, update `DATABASE_URL` to match.
 
 > **Testing the camera on a phone?** Browsers only expose the camera over HTTPS.
 > Generate local certs (e.g. with [mkcert](https://github.com/FiloSottile/mkcert)) into `certs/`
