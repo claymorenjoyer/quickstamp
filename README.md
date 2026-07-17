@@ -7,6 +7,7 @@
 **Drink. Stamp. Earn.** — A self-hosted, multi-tenant loyalty platform for coffee shops.
 
 Staff generate short-lived QR codes at the counter; customers scan them to collect points and redeem free drinks.
+
 (This repository (was once a private one) is shared due to portfolio-sharing reasons. So, all of the active changes made in the past may not be shown in the commits.)
 
 🌐 **Live demo:** [quickstamp.com.tr](https://quickstamp.com.tr)
